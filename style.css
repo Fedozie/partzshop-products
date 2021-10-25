@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0 2rem;
+    background-color: #273549;
+    color: #C5C5C5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+}
+
+.card{
+    background-color: #2D333B;
+    width: auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.card .image{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.card h2, .card h4{
+    text-align: center;
+}
+
+.card p{
+    font-size: .9rem;
+}
+
+.card span{
+    font-weight: bolder;
+}
