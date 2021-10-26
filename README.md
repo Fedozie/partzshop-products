@@ -4,3 +4,7 @@ This webpage is a display page for an imaginary company called Partzshop which d
 
 To access the list of products in stock, I fetched data from this [url](https://partzshop.herokuapp.com/api/v1/products). 
 I then used JS DOM manipulation to display it on the web browser.
+
+Below is the url to the webpage
+
+https://partzshop-products.netlify.app/
